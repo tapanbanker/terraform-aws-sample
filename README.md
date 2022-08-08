@@ -21,6 +21,16 @@ It is required to install following packages and tools on your local machine.
 terraform -version 
 ```
 
+# 3.	Tools to Validate Terraform Code
+```
+terraform init
+terraform fmt
+terraform plan
+terraform show
+terraform validate
+terraform apply -auto flag
+```
+   
 # Repository Structure
 A description of the structure of the code is found below. It will help navigate through the proposed example:
 
