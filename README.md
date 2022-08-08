@@ -34,8 +34,10 @@ A description of the structure of the code is found below. It will help navigate
 # AWS Infrastructure Terraform Pipeline
 - Embracing Infrastructure as Code (IaC) as a main approach to design, provide, develop and maintain their cloud infrastructure. IaC ensures reproducibility and scalability of their infrastructure while at the same time it allows DevOps to adopt best practices and paradigms.
 - Once the code is committed or the Pull Request (PR) are merged from /feature branch into /develop branch , the Jenkins CI/CD or AWS Code Pipeline DevOps will trigger the pipeline  automatically.
-- Once the Continous Integration CI Pipeline #1 is completed the #2 Pipeline that is Terraform Release pipeline will trigger automatically.
 - https://aws.amazon.com/blogs/developer/build-infrastructure-ci-for-terraform-code-leveraging-aws-developer-tools-and-terratest/
+
+- Once the Continous Integration CI Pipeline #1 is completed the #2 Pipeline that is Terraform Release pipeline will trigger automatically.
+
 ![Terraform + Jenkins](./docs/AWS-TF-2.png)
 
 # Terraform Remote State Management 
