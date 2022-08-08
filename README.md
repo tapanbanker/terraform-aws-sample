@@ -38,7 +38,7 @@ A description of the structure of the code is found below. It will help navigate
 
 - Once the Continous Integration CI Pipeline #1 is completed the #2 Pipeline that is Terraform Release pipeline will trigger automatically.
 
-![Terraform + Jenkins](./docs/AWS-TF-2.png)
+![Terraform + Jenkins](./docs/AWS-TF-2.jpeg)
 
 # Terraform Remote State Management 
 Terraform state is used to reconcile deployed resources with Terraform configurations. State allows Terraform to know what Azure resources to add, update, or delete. Terraform supports the persisting of state in remote storage.
